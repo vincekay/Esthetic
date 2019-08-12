@@ -1,0 +1,104 @@
+.card-img {
+    position: relative;
+}
+
+.DetailsNavContainer {
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.NavItemDetails1 {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.NavItemDetails2 {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    margin-left: 60px;
+}
+
+#UserInfo {
+    position: absolute;
+}
+
+#UserImage {
+    position: absolute;
+}
+
+#SelectUserImage {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 45px; 
+    margin-left: 35px;
+}
+
+#Username {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+#DetailsImage {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+#SelectImage {
+    margin-top: 170px;
+    margin-left: 310px;
+    max-height: 500px;
+    position: absolute;
+}
+
+#DataContainer {
+    margin-top: 160px;
+    margin-left: 45px;
+    position: absolute;
+}
+
+#DataContainer div {
+    margin-top: 520px;
+    position: absolute;
+}
+
+#ButtonContainer {
+    position: absolute;
+}
+
+#ButtonContainer button {
+    background-color: white;
+    border: solid 1px black;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 995px;
+    width: 85px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#Views {
+    position: absolute;
+    margin-left: 370px;
+    width: 300px;
+}
+
+#Downloads {
+    position: absolute;
+    margin-left: 610px;
+    width: 300px;
+}
+
+#Favorite {
+    position: absolute;
+    margin-left: 905px;
+    width: 300px;
+}

@@ -1,0 +1,24 @@
+.NavItem1 {
+    color: black;
+    position: absolute;
+    z-index: 2;
+    text-decoration: none;
+    display: inline;
+    right: 25px;
+}
+
+.NavItem2 {
+    color: black;
+    position: absolute;
+    z-index: 2;
+    text-decoration: none;
+    display: inline;
+    right: 95px;
+}
+
+.NavContainer {
+    float: right;
+    position: relative;
+    margin-top: 13px;
+}
+

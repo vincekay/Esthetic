@@ -1,33 +1,120 @@
-.App {
-  text-align: center;
+* {
+    font-family: 'Quicksand', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#backgroundContainer {
+    position: relative;
+    height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#background {
+    background-image: url('./images/backgroundImage.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 615px;
+    width: 100%;
+    filter: brightness(55%);
+    position: absolute;
+    z-index: 1;
+    margin-top: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.Title {
+    font-size: 30px;
+    font-weight: 700px;
+    position: absolute;
+    margin-left: 27px;
+    margin-top: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#searchBarContainer {
+    display: flex;
+    z-index: 3;
+    align-content: center;
+    justify-content: center;
+    padding-top: 380px;
+}
+
+#searchBarContainer h2 {
+    position: relative;
+    top: -190px;
+    left: -280px;
+    color: white;
+    font-size: 45px;
+    z-index: 3;
+    display: flex;
+}
+
+#gif {
+    width: 120px;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    margin-left: -313px;
+    margin-top: -80px;
+}
+
+#searchBar {
+    display: flex;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    z-index: 3;
+    width: 720px;
+    height: 52px;
+    padding-left: 15px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    top: 445px;
+    margin-left: 330px;
+    font-size: 20px;
+    z-index: 4;
+    color: black;
+}
+
+.card {
+    position: relative;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto, 5vw);
+    grid-gap: 15px;
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 55px;
+    width: 100%;
+    width: calc(100% - 108px);
+}
+
+.grid-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ButtonContainer {
+    position: relative;
+    width: 100%;
+    left: 530px;
+    top: 30px;
+}
+
+.CollectButton {
+    background-color: white;
+    height: 28px;
+    width: 85px;
+    font-size: 12px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
 }
